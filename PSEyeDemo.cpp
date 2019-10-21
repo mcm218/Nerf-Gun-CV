@@ -176,8 +176,8 @@ static DWORD WINAPI CaptureThread(LPVOID ThreadPointer){
 					//grab area around center pixel and use the average
 					//conver to HSV to to check if its green
 
-					//bool isGreen = center[1] > center[2] && center[1] > center[0];
-					bool isGreen = true;
+					bool isGreen = center[1] > center[2] && center[1] > center[0];
+					//bool isGreen = true;
 					if (isGreen) {
 						found++;
 						numContours++;
