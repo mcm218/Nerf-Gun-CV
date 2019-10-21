@@ -1,0 +1,8 @@
+﻿  PSEyeDemo.cpp
+c:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\users\michael\google drive\ece4960-system_design_2\pseyedemo_cpp_core\pseyedemo\pseyedemo.cpp(162): warning C4018: '<': signed/unsigned mismatch
+c:\users\michael\google drive\ece4960-system_design_2\pseyedemo_cpp_core\pseyedemo\pseyedemo.cpp(171): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\michael\google drive\ece4960-system_design_2\pseyedemo_cpp_core\pseyedemo\pseyedemo.cpp(200): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  PSEyeDemo.vcxproj -> C:\Users\Michael\Google Drive\ECE4960-System_Design_2\PSEyeDemo_CPP_Core\Debug\PSEyeDemo.exe
+  PSEyeDemo.vcxproj -> C:\Users\Michael\Google Drive\ECE4960-System_Design_2\PSEyeDemo_CPP_Core\Debug\PSEyeDemo.pdb (Full PDB)

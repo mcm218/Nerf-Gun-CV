@@ -1,0 +1,11 @@
+﻿  PSEyeDemo.cpp
+c:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+PSEyeDemo.cpp(151): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  5 of 422 functions ( 1.2%) were compiled, the rest were copied from previous compilation.
+    2 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  PSEyeDemo.vcxproj -> C:\Users\Michael\Google Drive\ECE4960-System_Design_2\PSEyeDemo_CPP_Core\Release\PSEyeDemo.exe
+  PSEyeDemo.vcxproj -> C:\Users\Michael\Google Drive\ECE4960-System_Design_2\PSEyeDemo_CPP_Core\Release\PSEyeDemo.pdb (Full PDB)
