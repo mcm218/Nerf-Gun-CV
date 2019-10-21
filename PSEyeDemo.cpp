@@ -136,10 +136,6 @@ static DWORD WINAPI CaptureThread(LPVOID ThreadPointer){
 	else {
 		CUDPSender sender(sizeof(PACKOUT), 12302, "127.0.0.1");
 		PACKOUT packet;
-		packet.panAngle = 1;
-		packet.tiltAngle = 1;
-		packet.fireMode = 1;
-		packet.laserPointer = 1;
 		while (1) {
 			//Get Frame From Camera
 			CLEyeCameraGetFrame(Instance->CameraInstance, CamImg.data);
@@ -203,17 +199,12 @@ static DWORD WINAPI CaptureThread(LPVOID ThreadPointer){
 						prevCenter = massCenter;
 						prevTime = clock();
 						//set packet values
-						/*packet.panAngle = (int) massCenter.x;
+						packet.panAngle = (int) massCenter.x;
 						packet.tiltAngle = (int) massCenter.y;
 						packet.fireMode = 1;
-						packet.laserPointer = 1;*/
-						packet.panAngle++;
-						packet.tiltAngle++;
-						packet.fireMode++;
-						packet.laserPointer++;
+						packet.laserPointer = 1;
 
 						sender.SendData(&packet);
-						//Sleep(1);
 					}
 				}
 			}
